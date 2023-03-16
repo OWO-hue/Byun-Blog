@@ -1,5 +1,4 @@
 body {
-    padding: 0 20rem;
     font-family:'Helvetica', monospace
 }
 
@@ -9,7 +8,7 @@ body {
     display: flex;
     height: 150px;
     align-items: center;
-    padding: 16px;
+    padding: 0 300px;
     justify-content: flex-end;
 }
 
@@ -27,6 +26,59 @@ body {
     color: #E5E7EB
 }
 
+.intro {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 300px;
+}
+
+.intro h1 {
+    min-width: 0;
+}
+
+.intro h2 {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.intro .textbox {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.intro .textbox .bigger-text {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.intro .textbox .smaller-text {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.intro .textbox button {
+    background-color: blueviolet;
+    font-size: 30px;
+    border-radius: 12px;
+    color: white;
+    padding: 0 50px;
+}
+
+
+.intro .imgholder {
+    flex: 4;
+}
+
+.intro .imgholder img {
+    max-width: 100%;
+}
 
 
 
