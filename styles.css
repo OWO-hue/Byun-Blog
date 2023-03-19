@@ -32,7 +32,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 300px;
+    padding: 120px 300px;
 }
 
 .intro h1 {
@@ -70,6 +70,7 @@ body {
     color: white;
     padding: 0 50px;
     height: 60px;
+    border: 2px solid #3882F6;
 }
 
 
@@ -82,7 +83,7 @@ body {
 }
 
 .vouch {
-    padding: 50px 300px;
+    padding: 120px 300px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -103,7 +104,13 @@ body {
     width: 200px;
     border: 4px solid #3882F6;
     border-radius: 15%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vouch .vouch-flex .vouch-img img{
+    max-width: 90%;
 }
 
 .vouch .vouch-flex .last-flexbox {
@@ -117,4 +124,79 @@ body {
     max-width: 200px;
     font-size: 18px;
     color: #95979B
+}
+
+.quote {
+    padding: 120px 300px;
+    background-color: #E5E6E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .large-txt {
+    font-size: 36px;
+    font-family: 'light italic';
+}
+
+.quote .small-txt {
+    color: #1F2937;
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+.sign-up {
+    background-color: white;
+    padding: 120px 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up .container {
+    width: 1200px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sign-up .container button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+    width: 160px;
+    height: 40px;
+}
+
+.sign-up .container .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.sign-up .container .text-container .large-txt {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sign-up .container .text-container .small-txt {
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.copyright {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 50px 300px;
+    font-size: 20px;
 }
